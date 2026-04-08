@@ -1,0 +1,81 @@
+body {
+    display: flex;
+    margin: 0;
+    background-color: rgb(153, 46, 46);
+
+
+}
+
+.forms {
+    width: 25%;
+}
+
+.back {
+    background-image: url("assets/back.jpg");
+    width: 75%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form {
+    padding: 20px;
+    color: aliceblue;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+
+
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input {
+    background-color: rgb(153, 46, 46);
+    border: none;
+    border-bottom: 2px solid aliceblue;
+    color: aliceblue;
+    outline: none;
+    height: 25px;
+}
+
+select {
+    background-color: rgb(153, 46, 46);
+    border: none;
+    border-bottom: 2px solid aliceblue;
+    color: aliceblue;
+    outline: none;
+}
+
+option {
+    background-color: rgb(0, 0, 0);
+    outline: none;
+    color: aliceblue;
+}
+
+.check {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    gap: 5px;
+}
+
+
+
+button {
+    background-color: #9c1a1a;
+    color: rgb(255, 105, 105);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkred;
+}
